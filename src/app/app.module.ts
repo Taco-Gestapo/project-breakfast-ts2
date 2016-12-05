@@ -3,11 +3,13 @@ import {NgModule} from "@angular/core";
 import {FormsModule} from "@angular/forms";
 import {HttpModule} from "@angular/http";
 import {AppComponent} from "./app.component";
-import {FloodService} from "app/services/flood.service";
+import {FlooderComponent} from "app/components/flooder/flooder.component";
+import {FloodService} from "app/services/flood/flood.service";
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FlooderComponent
   ],
   imports: [
     BrowserModule,
