@@ -6,8 +6,19 @@ namespace ProjectBreakfast.Tools.HTTPFlood {
   export module HTTPFlooder {
 
     export class HTTPFlooder implements Tool {
-      Init(target: String, port: Number, connections: Number, timeout: Number): void {
-        //@todo
+      /// <summary>
+      /// Initializes the settings
+      /// </summary>
+      /// <param name="target">Targets IP</param>
+      /// <param name="port">Targets port</param>
+      /// <param name="maxConnections">Maximum connections</param>
+      /// <param name="timeout">Max time for the tool to live</param>
+      public Init(target: String, port: Number, maxConnections: Number, timeout: Number) {
+        this.target = Dns.GetHostEntry(target).AddressList;
+        this.port = port;
+        this.maxConnections = maxConnections;
+        this.timeOut = timeout;
+        this.host += ':'+port;
       }
 
       Start(): void {

@@ -15,6 +15,7 @@ import {ClientNavigatorService} from "app/services/client-navigator/client-navig
 import {ClientWindowService} from "app/services/client-window/client-window.service";
 import {MediaService} from "app/services/audio-video-capture/media.service";
 import {SpeechApiService} from "app/services/speech-api/speech-api.service";
+import {DnsService} from "app/services/dns/dns.service";
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import {SpeechApiService} from "app/services/speech-api/speech-api.service";
     ClientDocumentService,
     ClientNavigatorService,
     ClientWindowService,
+    DnsService,
     MediaService,
     FloodService,
     SpeechApiService
