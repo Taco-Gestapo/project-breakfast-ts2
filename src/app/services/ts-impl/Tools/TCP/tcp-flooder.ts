@@ -1,28 +1,29 @@
 /**
  * Created by jonwilliams on 2016-12-04.
  */
-export module Pr0jectBreakfast.Tools.UDP {
-  import Tool = ProjectBreakfast.Tool;
+namespace ProjectBreakfast.Tools.TCP {
+export module TCP {
+
   export class TCPFlooder implements Tool {
-    Init(target: String, port: Number, connections: Number, timeout: Number): void {
-//@todo
-    }
+      Init(target: String, port: Number, connections: Number, timeout: Number): void {
+        //@todo
+      }
 
-    Start(): void {
-//@todo
-    }
+      Start(): void {
+        //@todo
+      }
 
-    IsTimedOut(): boolean {
-      return null; //@todo
-    }
+      IsTimedOut(): boolean {
+        return null; //@todo
+      }
 
-    Abort(): void {
-      //@todo
-    }
+      Abort(): void {
+        //@todo
+      }
 
-    GetStatus(): void {
-      //@todo
+      GetStatus(): void {
+        //@todo
+      }
     }
-
   }
 }

@@ -3,9 +3,28 @@
  */
 namespace ProjectBreakfast.Tools.HTTPFlood {
 
-  export module HTTPFlooder { //@todo. maybe this should not be a module
+  export module HTTPFlooder {
 
-    export class HTTPFl00der {
+    export class HTTPFlooder implements Tool {
+      Init(target: String, port: Number, connections: Number, timeout: Number): void {
+        //@todo
+      }
+
+      Start(): void {
+        //@todo
+      }
+
+      IsTimedOut(): boolean {
+        return undefined; //@todo
+      }
+
+      Abort(): void {
+        //@todo
+      }
+
+      GetStatus(): void {
+        //@todo
+      }
       /// <summary>
       /// The amount of requests that has been sent to the connection
       /// </summary>

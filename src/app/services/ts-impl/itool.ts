@@ -3,7 +3,10 @@
  */
 namespace ProjectBreakfast {
 
-  export module Pr0jectBreakfast {
+  export module ProjectBreakfast {
+
+    //do not reference ITool, use the Tool interface always
+    //Deprecated, not part of the public API, please do not use this.
     export interface ITool {
       /// <summary>
       /// Sets up the tool
@@ -37,7 +40,7 @@ namespace ProjectBreakfast {
     }
   }
 
-  import ITool = Pr0jectBreakfast.ITool;
+  import ITool = ProjectBreakfast.ITool;
   export interface Tool extends ITool {
     //no not declare and interface method here, they belong in ITool interface above.
   }

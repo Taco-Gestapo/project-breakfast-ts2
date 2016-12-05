@@ -1,32 +1,33 @@
 /**
  * Created by jonwilliams on 2016-12-04.
  */
-export module Pr0jectBreakfast.Tools.UDP {
-  import Tool = ProjectBreakfast.Tool;
+namespace ProjectBreakfast.Tools.UDP {
+  export module UDP {
 
-  export class UDPFlooder implements Tool {
-    Init(target: String, port: Number, connections: Number, timeout: Number): void {
-      //@todo
+    export class UDPFlooder implements Tool {
+      Init(target: String, port: Number, connections: Number, timeout: Number): void {
+        //@todo
+      }
+
+      Start(): void {
+        //@todo
+      }
+
+      IsTimedOut(): boolean {
+        return null; //@todo
+      }
+
+      Abort(): void {
+        //@todo
+      }
+
+      GetStatus(): void {
+        //@todo
+      }
     }
-
-    Start(): void {
-      //@todo
-    }
-
-    IsTimedOut(): boolean {
-      return null; //@todo
-    }
-
-    Abort(): void {
-      //@todo
-    }
-
-    GetStatus(): void {
-      //@todo
-    }
-
   }
 }
+
 //
 // using System;
 // using System.Net;

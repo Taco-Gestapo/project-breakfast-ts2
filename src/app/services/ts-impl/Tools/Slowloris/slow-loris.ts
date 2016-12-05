@@ -1,6 +1,6 @@
 namespace ProjectBreakfast.Tools.SlowLoris {
   export module SlowLoris {
-    export class Sl0wLoris implements Tool {
+    export class SlowLoris implements Tool {
       Init(target: String, port: Number, connections: Number, timeout: Number): void {
         //@todo
       }

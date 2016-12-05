@@ -5,7 +5,7 @@ namespace ProjectBreakfast.Threading {
   export module Threading {
     export class ThreadOperation {
       //@todo
-      constructor(threadAmount: Number) {
+      constructor(private _threadAmount: Number) {
         //@todo
       }
 
