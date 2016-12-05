@@ -2,7 +2,6 @@ import {Injectable} from "@angular/core";
 import AssemblyInf0 = ProjectBreakfast.Properties.AssemblyInfo.AssemblyInf0;
 import ThreadOperation = ProjectBreakfast.Threading.Threading.ThreadOperation;
 import Tool = ProjectBreakfast.Tool;
-import HTTPFl00der = ProjectBreakfast.Tools.HTTPFlood.HTTPFlooder;
 import SlowLoris = ProjectBreakfast.Tools.SlowLoris.SlowLoris.SlowLoris;
 import Program = ProjectBreakfast.Program;
 import HTTPFlooder = ProjectBreakfast.Tools.HTTPFlood.HTTPFlooder.HTTPFlooder;
