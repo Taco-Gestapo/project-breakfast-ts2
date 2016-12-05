@@ -1,6 +1,9 @@
 # ProjectBreakfastTs2
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.22.
+(12/05/16 - status - we are still running into cli build problems version 1.0.0-beta.22.1,
+we are awaiting a working fix from the CLI team.
+
 
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
