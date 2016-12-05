@@ -1,7 +1,7 @@
 {
   "name": "project-breakfast-ts2",
-  "version": "0.0.0",
-  "license": "MIT",
+  "version": "0.0.1",
+  "license": "unlicense.org",
   "angular-cli": {},
   "scripts": {
     "start": "ng serve",
