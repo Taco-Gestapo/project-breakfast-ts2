@@ -1,11 +1,12 @@
 # ProjectBreakfastTs2
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.22.
+- it has been tested using CLI version 1.0.0-beta.22.1  . Our findings were that this version is completely broken and hopelessly useless. So CLI team we are hoping u can deliver something useable tomorrow. god's speed.
 
 Status Log
 ----------
-(12/05/16 - status - we are still running into cli build problems version 1.0.0-beta.22.1,
-we are awaiting a working fix from the CLI team).
+12/05/16 - we are still running into cli build problems version 1.0.0-beta.22.1,
+we are awaiting a working fix from the CLI team.
 
 
 ## Development server
